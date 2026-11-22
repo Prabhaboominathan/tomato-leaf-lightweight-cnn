@@ -5,17 +5,6 @@ weights), that classifies tomato leaves into **10 classes**: bacterial spot, ear
 septoria leaf spot, two-spotted spider mite, target spot, tomato mosaic virus, yellow leaf curl virus and healthy.
 It also includes the ablation runs and the model-size / CPU-latency check used to judge edge suitability.
 
-## Source of the method
-
-This repository re-implements the architecture and experiment design described in:
-
-> M. Shahzad, M. A. Javed, E. Ashraf, H. I. Ahmad, S. Masood. *A deep learning model for accurate tomato leaf
-> disease identification.* Turkish Journal of Electrical Engineering & Computer Sciences 34(1): 84-101, 2026.
-> doi:10.55730/1300-0632.4164 (open access, CC BY 4.0).
-
-It is **not** the original authors' code, and it was written from the published description. Every number in
-`results/` is produced by running this code on your machine.
-
 ## Architecture
 
 ```
